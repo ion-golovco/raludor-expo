@@ -1,7 +1,9 @@
 import "./App.css";
-import Main from "./pages/main";
+import Main from "./pages/Main";
 import Catalog from "./pages/Catalog";
-import { Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

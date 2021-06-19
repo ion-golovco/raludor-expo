@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React from "react";
 
-import Sorturi from "../assets/sorturi"
 
-const Sorts = Sorturi
 
-class Item extends Component {
-    state = {  }
-    render() { 
-        return ( <div>
-            {Sorts.map((n)=>{n.})}
-        </div> );
-    }
+export function Item(props) {
+  const { img, name } = props;
+  return (
+    <div>
+      <img id="item-image" src={img} alt={name} />
+      <p>{name}</p>
+    </div>
+  );
 }
- 
-export default Item;

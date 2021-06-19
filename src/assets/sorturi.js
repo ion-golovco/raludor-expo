@@ -1,5 +1,6 @@
 const Sorturi = [
   {
+    id:0,
     category: "apricot",
     sorts: [
       {
@@ -75,7 +76,7 @@ const Sorturi = [
         name: "KIOTO COV",
       },
       {
-        img: "dalmontevivai.com/wp-content/uploads/2019/07/LADY-COT-2011-MAGNANI-8-albero-di-albicocche-albicocco--600x450.jpg",
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/LADY-COT-2011-MAGNANI-8-albero-di-albicocche-albicocco--600x450.jpg",
         name: "LADY COT COV",
       },
       {
@@ -153,6 +154,7 @@ const Sorturi = [
     ],
   },
   {
+    id:1,
     category: "cherry",
     sorts: [
       {
@@ -230,6 +232,7 @@ const Sorturi = [
     ],
   },
   {
+    id:2,
     category: "plum",
     sorts: [
       {
@@ -311,6 +314,7 @@ const Sorturi = [
     ],
   },
   {
+    id:3,
     category: "nectarine",
     sorts: [
       {
@@ -392,6 +396,7 @@ const Sorturi = [
     ],
   },
   {
+    id:4,
     category: "peach",
     sorts: [
       {
@@ -401,6 +406,7 @@ const Sorturi = [
     ],
   },
   {
+    id:5,
     category: "kiwi",
     sorts: [
       {
@@ -414,6 +420,7 @@ const Sorturi = [
     ],
   },
   {
+    id:6,
     category: "pear",
     sorts: [
       {
@@ -463,6 +470,7 @@ const Sorturi = [
     ],
   },
   {
+    id:7,
     category: "apple",
     sorts: [
       {
@@ -516,6 +524,7 @@ const Sorturi = [
     ],
   },
   {
+    id:8,
     category: "kaki",
     sorts: [
       {
@@ -533,6 +542,7 @@ const Sorturi = [
     ],
   },
   {
+    id:9,
     category: "nut",
     sorts: [
       {
@@ -574,5 +584,6 @@ const Sorturi = [
     ],
   },
 ];
+
 
 export default Sorturi;
