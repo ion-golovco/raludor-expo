@@ -1,3 +1,14 @@
 {
-    
+    "apricot.label":"Apricot",
+    "cherry.label":"Cherry",
+    "plum.label":"Plum",
+    "nectarine.label":"Nectarine",
+    "peach.label":"Peach",
+    "kiwi.label":"Kiwi",
+    "pear.label":"Pear",
+    "apple.label":"Apple",
+    "kaki.label":"Persimmon Kaki",
+    "nut.label":"Nuts",
+
+    "intro.label":""
 }
