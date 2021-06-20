@@ -1,6 +1,6 @@
 const Sorturi = [
   {
-    id:0,
+    id: 0,
     category: "apricot",
     sorts: [
       {
@@ -154,7 +154,7 @@ const Sorturi = [
     ],
   },
   {
-    id:1,
+    id: 1,
     category: "cherry",
     sorts: [
       {
@@ -232,7 +232,7 @@ const Sorturi = [
     ],
   },
   {
-    id:2,
+    id: 2,
     category: "plum",
     sorts: [
       {
@@ -314,99 +314,271 @@ const Sorturi = [
     ],
   },
   {
-    id:3,
+    id: 3,
     category: "nectarine",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/png_alitop_1.jpg",
         name: "ALITOP ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Pesco-Almanebo-Dalmonte01e54ae9c3346bb46b5ea9fd8020691aac205b6fde-600x800.jpg",
         name: "ALMANEBO ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/BIG-GLORY-pesco-albero-di-pesche--600x400.jpg",
         name: "BIG GLORY ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Big-Top-pesco-albero-di-pesche--600x463.jpg",
         name: "BIG TOP ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Boreal-nettarine-albero-di-pesche-nettarine-600x508.jpg",
         name: "BOREAL ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/clariss-nettarina-albero-di-pesche-600x450.jpg",
         name: "CLARISS ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/DalmoSweet_1-pesco-albero-di-pesche--600x450.jpg",
         name: "DALMOSWEET ONE ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/DalmoSweet_2-pesco-albero-di-pesche--600x450.jpg",
         name: "DALMOSWEET TWO ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/esmeralda-nettarina-albero-di-pesche-600x450.jpg",
         name: "ESMERALDA",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Garcica-2-pesco-albero-di-pesche--600x800.jpg",
         name: "GARCICA ® COV",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/gardeta-nettarina-albero-di-pesche.jpg",
         name: "GARDETA COV",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/garofa-nettarina-albero-di-pesche.jpg",
         name: "GAROFA COV",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Gartairo_1-pesco-albero-di-pesche--600x617.jpg",
         name: "GARTAIRO COV",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/HONEY-GLORY-pesco-albero-di-pesche--600x900.jpg",
         name: "HONEY GLORY ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/HONEY-TOP-pesco-albero-di-pesche--600x400.jpg",
         name: "HONEY TOP ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Kinolea-nettarina-albero-di-pesche.jpg",
         name: "KINOLEA COV",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Max4-pesco-albero-di-pesche--600x463.jpg",
         name: "MAX 4 ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Max7_ok-pesco-albero-di-pesche--600x521.jpg",
         name: "MAX 7 ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Orion-pesco-albero-di-pesche--600x463.jpg",
         name: "ORION ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Pit-Lane-pesco-albero-di-pesche--600x467.jpg",
         name: "PIT LANE ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Pit-Stop-pesco-albero-di-pesche--600x510.jpg",
         name: "PIT STOP ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Silver-Giant-pesco-albero-di-pesche--600x456.jpg",
         name: "SILVER GIANT ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Tarderina-pesco-albero-di-pesche--600x573.jpg",
         name: "TARDERINA",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Tifany-nettarina-albero-di-pesche-600x508.jpg",
         name: "TIFANY ®",
-      },{
+      },
+      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Venus-pesco-albero-di-pesche--600x463.jpg",
         name: "VENUS",
-      }
-    ],
-  },
-  {
-    id:4,
-    category: "peach",
-    sorts: [
-      {
-        img: "",
-        name: "",
       },
     ],
   },
   {
-    id:5,
+    id: 4,
+    category: "peach",
+    sorts: [
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Glohaven-pesco-albero-di-pesche--600x464.jpg",
+        name: "GLOHAVEN",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/pg_guglielmina_2-600x452.jpg",
+        name: "GUGLIELMINA",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Lucius-pesco-albero-di-pesche.jpg",
+        name: "LUCIUS ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Maria-Bianca-pesco-albero-di-pesche--600x456.jpg",
+        name: "MARIA BIANCA",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/pg_maria_marta_1-600x450.jpg",
+        name: "MARIA MARTA",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Michelini-pesco-albero-di-pesche--600x455.jpg",
+        name: "MICHELINI",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/NERISA-pesco-albero-di-pesche--600x461.jpg",
+        name: "NERISA ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/OCTAVIA-pesco-albero-di-pesche--600x399.jpg",
+        name: "OCTAVIA ® ZAIGLE COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/pampana-pesco-albero-di-pesche.jpg",
+        name: "PAMPANA COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Patty-albero-di-mele-melo--600x450.jpg",
+        name: "PATTY ® ZAISTO COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/RED-HEVEN-PESCO.png",
+        name: "RED HAVEN",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Rome_Star-pesco-albero-di-pesche--600x463.jpg",
+        name: "ROME STAR ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Rosa-West-pesco-albero-di-pesche--600x457.jpg",
+        name: "ROSA DEL WEST",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Rosalia-pesco-albero-di-pesche--600x459.jpg",
+        name: "ROSALIA ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/royal-delicious-pesco-albero-di-pesche--600x757.jpg",
+        name: "ROYAL DELICIOUS ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/royal-dixie-pesco-albero-di-pesche--600x756.jpg",
+        name: "ROYAL DIXIE ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal_Glory-pesco-albero-di-pesche--600x464.jpg",
+        name: "ROYAL GLORY ® ZAIFER COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/royal-maid-pesco-albero-di-pesche.jpg",
+        name: "ROYAL MAID ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal_Majestic-pesco-albero-di-pesche--600x463.jpg",
+        name: "ROYAL MAJESTIC ® ZAIMAJAL COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal-Summer-pesco-albero-di-pesche--600x464.jpg",
+        name: "ROYAL SUMMER ® ZAIMUS COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal_Time-pesco-albero-di-pesche--600x464.jpg",
+        name: "ROYAL TIME ® ZAIRETOP COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/royal-top-pesco-albero-di-pesche--600x755.jpg",
+        name: "ROYAL TOP ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Sugar-Time-pesco-albero-di-pesche--600x466.jpg",
+        name: "SUGAR TIME COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/sun-crest-pesco-albero-di-pesche.jpeg",
+        name: "SUNCREST",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/sweet-dreams-pesco-albero-di-pesche--600x756.jpg",
+        name: "SWEET DREAM ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/sweet-henry-pesco-albero-di-pesche--600x756.jpg",
+        name: "SWEET HENRY COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Zee-Lady-pesco-albero-di-pesche--600x464.jpg",
+        name: "ZEE LADY ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Concettina-pesco-albero-di-pesche--600x456.jpg",
+        name: "CONCETTINA ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Osiris-1-pesco-albero-di-pesche--600x450.jpg",
+        name: "OSIRIS COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Pasionata-1-pesco-albero-di-pesche--600x450.jpg",
+        name: "PASIONATA COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/2013-06-16-13.28.26-600x800.jpg",
+        name: "PIATTAFORONE ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Platifortwo.jpg",
+        name: "PINK RING ® PIATTAFORTWO COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Samantha-6-pesco-albero-di-pesche--600x450.jpg",
+        name: "SAMANTHA COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Andross-pesco-albero-di-pesche--600x463.jpg",
+        name: "ANDROSS",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/bgold6-pesco-albero-di-pesche--600x450.jpg",
+        name: "BABY GOLD 6",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Baby-Gold9-pesco-albero-di-pesche--600x464.jpg",
+        name: "BABY GOLD 9",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Carson-pesco-albero-di-pesche--600x464.jpg",
+        name: "CARSON",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Romea-pesco-albero-di-pesche--600x463.jpg",
+        name: "ROMEA",
+      },
+    ],
+  },
+  {
+    id: 5,
     category: "kiwi",
     sorts: [
       {
@@ -420,7 +592,7 @@ const Sorturi = [
     ],
   },
   {
-    id:6,
+    id: 6,
     category: "pear",
     sorts: [
       {
@@ -470,7 +642,7 @@ const Sorturi = [
     ],
   },
   {
-    id:7,
+    id: 7,
     category: "apple",
     sorts: [
       {
@@ -524,7 +696,7 @@ const Sorturi = [
     ],
   },
   {
-    id:8,
+    id: 8,
     category: "kaki",
     sorts: [
       {
@@ -542,7 +714,7 @@ const Sorturi = [
     ],
   },
   {
-    id:9,
+    id: 9,
     category: "nut",
     sorts: [
       {
@@ -584,6 +756,5 @@ const Sorturi = [
     ],
   },
 ];
-
 
 export default Sorturi;

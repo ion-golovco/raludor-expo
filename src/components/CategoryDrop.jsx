@@ -7,14 +7,17 @@ import { Col, Row } from "reactstrap";
 const Sorturi = sorturi;
 
 class CategoryDropdown extends Component {
-  state = {};
+  state = { isOpen: false };
 
   render() {
     return (
-      <Row>
-        {Sorturi[this.props.fruit].category}
+      <Row style={{ "margin-left": 0, "margin-right": 0,"backgroundColor":this.props.color }}>
         {Sorturi[this.props.fruit].sorts.map((n) => {
-          return <Col md='3' xs='6' style={{ "padding-left": 0, "padding-right": 0 }}><Item img={n.img} name={n.name}/></Col>
+          return (
+            <Col style={{ "padding-left": 0, "padding-right": 0 }}md="3" xs="6">
+              <Item img={n.img} name={n.name} />
+            </Col>
+          );
         })}
       </Row>
     );
