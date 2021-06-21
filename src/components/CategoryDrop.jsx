@@ -11,10 +11,20 @@ class CategoryDropdown extends Component {
 
   render() {
     return (
-      <Row style={{ "margin-left": 0, "margin-right": 0,"backgroundColor":this.props.color }}>
+      <Row
+        style={{
+          "margin-left": 0,
+          "margin-right": 0,
+          backgroundColor: this.props.color,
+        }}
+      >
         {Sorturi[this.props.fruit].sorts.map((n) => {
           return (
-            <Col style={{ "padding-left": 0, "padding-right": 0 }}md="3" xs="6">
+            <Col
+              style={{ "padding-left": 0, "padding-right": 0 }}
+              md="3"
+              xs="6"
+            >
               <Item img={n.img} name={n.name} />
             </Col>
           );

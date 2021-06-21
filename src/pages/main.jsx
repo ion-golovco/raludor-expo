@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Info from "../components/Info";
 import Selector from "../components/Selector";
+import Carousel from "../components/Carousel";
 
 class Main extends Component {
   state = {};
@@ -10,6 +11,7 @@ class Main extends Component {
     return (
       <div>
         <Header />
+        <Carousel />
         <Info />
         <Selector />
         <Footer />

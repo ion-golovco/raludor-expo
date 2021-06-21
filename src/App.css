@@ -1,19 +1,96 @@
-#item-image{
-    object-fit: cover;
-    width: 100%;
-    height: 200px;
-    margin-top: 1rem;
+#item-image {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  margin-top: 1rem;
 }
+
+#navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #342628;
+}
+
+#navbar img {
+  margin-left: 1em;
+}
+
+#navbarItem {
+  margin-left: 1em;
+}
+
+.toggle-category {
+  display: flex;
+  padding: 1em;
+  transition: 0.3s;
+  background-color: white;
+
+}
+
+.toggle-category:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #e3e3e3;
+}
+
+.toggle-category h1 {
+  padding: 10px 0px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#fruitCatalog {
+  text-align: center;
+  background-color: #fdf4e2;
+}
+
+#Info {
+  padding: 1em;
+  background-color: #342628;
+  color: white;
+  border-bottom: 10px solid #Feaa00;
+}
+
+#Info img {
+  border: 5px solid #feaa00;
+  border-radius: 50%;
+}
+
+#hrgreen {
+  border-bottom: 2px solid #feaa00;
+}
+
+#selector {
+  vertical-align: sub;
+  background-color: #788402;
+  text-align: center;
+  border-bottom: 5px solid #Fff;
+}
+
+#selector img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+#selector h1 {
+  line-height: 240px;
+  color: white;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

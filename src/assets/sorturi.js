@@ -697,24 +697,6 @@ const Sorturi = [
   },
   {
     id: 8,
-    category: "kaki",
-    sorts: [
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/fm_hana_fuyu_1-600x450.jpg",
-        name: "HANA FUYU",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/fm_kaki_tipo_8-600x450.jpg",
-        name: "KAKI TIPO",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/fm_kaki_rojo_brillante_3-600x450.jpg",
-        name: "ROJO BRILLANTE",
-      },
-    ],
-  },
-  {
-    id: 9,
     category: "nut",
     sorts: [
       {
