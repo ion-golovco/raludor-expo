@@ -6,6 +6,7 @@ export default function Accessory() {
 const {t} = useTranslation()
 return(<div>
     <Header />
+    {t()}
 </div> )
     
 };
