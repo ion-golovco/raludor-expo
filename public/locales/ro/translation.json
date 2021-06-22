@@ -1,12 +1,34 @@
 {
-    "apricot":"Apricot",
-    "cherry":"Cherry",
-    "plum":"Plum",
+    "catalog":"Catalog de soiuri",
+    "home":"Despre noi",
+    "gallery":"Galeria",
+    "contact":"Contacte",
+    "accessory":"Accesorii",
+
+    "apricot":"Caise",
+    "cherry":"Cireșe",
+    "plum":"Prune",
     "nectarine":"Nectarine",
-    "peach":"Peach",
+    "peach":"Piersici",
     "kiwi":"Kiwi",
-    "pear":"Pear",
-    "apple":"Apple",
-    "kaki":"Persimmon Kaki",
-    "nut":"Nuts"
+    "pear":"Pere",
+    "apple":"Mere",
+    "nut":"Nuci",
+    "table-grape":"Struguri de masă",
+    "wine-grape":"Struguri pentru vin",
+
+
+    "selection":"Selecție de ",
+    "hello":"Proiectarea viilor și livezilor",
+    
+    "introduction":{
+        "part1head":"Selecție amplă de produse calitative",
+        "part1":"SRL RALUDOR - EXPO este o companie care se ocupă cu proiectarea viilor și a livezilor. Deasemenea suntem reprezentanți în Republica Moldova al pepinierei Dalmonte din Italia.",
+
+        "part2head":"RALUDOR - EXPO",
+        "part2":"Compania noastră livrează spalier din lemn tratat cu antiseptic și toată gama de accesorii necesare pentru instalarea livezilor superintensive. Echipa noastră de profesioniști mereu sunt gata să vă consulte, începînd de la alegerea terenului în natură, analiza solului și apei și terminînd cu cele mai performante și competitive soiuri. La fel oferim consultații în instalarea suportului de susținere și instalarea plasei anti grindină."
+    }
+
+   
+
 }

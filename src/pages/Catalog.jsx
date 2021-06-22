@@ -1,55 +1,35 @@
 import React from "react";
-import { Col, UncontrolledCollapse, Row } from "reactstrap";
-import CategoryDropdown from "../components/CategoryDrop";
+import { Col, Row } from "reactstrap";
 import Header from "../components/Header";
 
+import PopularItems from "../components/PopularItems";
 import Sorturi from "../assets/sorturi";
 
 import { useTranslation } from "react-i18next";
-
-const color = [
-  "f5b335",
-  "ab1254",
-  "8264a9",
-  "e9540d",
-  "d9272e",
-  "00833e",
-  "00953b",
-  "61a60e",
-  "9c9380",
-];
 
 export default function Catalog() {
   const { t } = useTranslation();
   return (
     <div>
       <Header />
-
-      <Col id="fruitCatalog" xs="12"md={{ size: "8", offset: 2 }}>
+      <PopularItems />
+      <h1 id="MainText">{t('catalog')}</h1>
+      
+      <div id="fruitCatalog" >
+      <Col xs="12"md={{ size: "8", offset: 2 }}>
+        <Row>
         {Sorturi.map((n) => {
-          return (
-            <Row>
-              <div
-                style={{ "border-bottom": `5px solid #${color[n.id]}`}}
-                className="toggle-category"
-                id={`toggler${n.id}`}
-              >
-                <img
-                  style={{padding:"1rem"}}
-                  src={`https://img.icons8.com/ios-glyphs/60/${color[n.id]}/${
-                    n.id !== 3 ? n.category : "peach--v2.png"
-                  }`}
-                  alt=""
-                />
-                <h1>{t(`${n.category}`)}</h1>
-              </div>
-              <UncontrolledCollapse toggler={`#toggler${n.id}`}>
-                <CategoryDropdown  fruit={n.id} />
-              </UncontrolledCollapse>
-            </Row>
-          );
+          return ( <Col md="3"xs="6">
+            <a href={`/catalog/${n.category}`}>
+            <img id="item-image"src={n.sorts[1].img} alt="" />
+            </a>
+            <p>{t(n.category)}</p>
+           
+          </Col> );
         })}
+        </Row>
       </Col>
+      </div>
       </div>
   );
 }

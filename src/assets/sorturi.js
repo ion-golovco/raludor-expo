@@ -6,6 +6,7 @@ const Sorturi = [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/aristo2-e1595315871342-600x626.png",
         name: "ARISTO COV",
+        
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Carmingo_Farbaly-albero-di-albicocche-albicocco-1-1-600x464.jpg",
@@ -211,7 +212,7 @@ const Sorturi = [
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal-tioga-ciliegio-albero-di-ciliegie.png",
-        name: "ROYAL TIOGA®",
+        name: "ROYAL TIOGA ®",
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Samba-albero-di-ciliegie-ciliegio--600x508.jpg",
@@ -734,6 +735,34 @@ const Sorturi = [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Almond-Tree-mandorlo-tuono-dalmonte-vivai-vendita-piante-oline-600x600.jpg",
         name: "TUONO",
+      },
+    ],
+  },
+  {
+    id: 9,
+    category: "table-grape",
+    sorts: [
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Hayward-kiwi-albero-di-kiwi--600x463.jpg",
+        name: "HAYWARD CL 8",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/401-57-600x450.jpg",
+        name: "AC 401-57",
+      },
+    ],
+  },
+  {
+    id: 10,
+    category: "wine-grape",
+    sorts: [
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Hayward-kiwi-albero-di-kiwi--600x463.jpg",
+        name: "HAYWARD CL 8",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/401-57-600x450.jpg",
+        name: "AC 401-57",
       },
     ],
   },
