@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Header from '../../components/Header';
+import Header from '../../components/Header.jsx';
 import { useTranslation } from "react-i18next";
 
-import Sorturi from "../../assets/sorturi";
+import Sorturi from "../../assets/sorturi.js";
 import { Col, Row } from 'reactstrap';
 
 const fruit = 0

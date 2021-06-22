@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
-import Header from "../components/Header";
+import Header from "../components/Header.jsx";
 
-import PopularItems from "../components/PopularItems";
+import PopularItems from "../components/PopularItems.jsx";
 import Sorturi from "../assets/sorturi";
 
 import { useTranslation } from "react-i18next";

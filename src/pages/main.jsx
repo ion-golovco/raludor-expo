@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Info from "../components/Info";
-import Contact from "../components/Contact";
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
+import Info from "../components/Info.jsx";
+import Contact from "../components/Contact.jsx";
 import { Col, Row } from "reactstrap";
 
 import { useTranslation } from "react-i18next";
