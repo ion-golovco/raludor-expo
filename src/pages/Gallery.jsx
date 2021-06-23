@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/Header.jsx';
+import Header from '../Components/Header.jsx';
 import images from '../assets/images.js';
 import { Col, Row } from 'reactstrap';
 

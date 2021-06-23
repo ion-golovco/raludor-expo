@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../../components/Header.jsx';
+import Header from '../../Components/Header.jsx';
 import { useTranslation } from "react-i18next";
 
 import Sorturi from "../../assets/sorturi.js";

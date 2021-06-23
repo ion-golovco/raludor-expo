@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import Header from '../components/Header';
+import Header from '../Components/Header';
 
 export default function Accessory() {
 const {t} = useTranslation()

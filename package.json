@@ -12,8 +12,7 @@
     "react-i18next": "^11.11.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "reactstrap": "^8.9.0",
-    "react-facebook": "^8.1.4"
+    "reactstrap": "^8.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,8 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-   
   }
 }

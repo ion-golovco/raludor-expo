@@ -1,12 +1,12 @@
 import "./App.css";
-import Main from "./pages/Main.jsx";
-import Catalog from "./pages/Catalog.jsx";
-import Gallery from "./pages/Gallery.jsx";
-import Apricot from "./pages/Catalog/Apricot.jsx";
-import Cherry from "./pages/Catalog/Cherry.jsx"
-import Plum from "./pages/Catalog/Plum.jsx";
-import Peach from "./pages/Catalog/Peach.jsx";
-import Accessory from "./pages/Accessory.jsx";
+import Main from "./Pages/Main.jsx";
+import Catalog from "./Pages/Catalog.jsx";
+import Gallery from "./Pages/Gallery.jsx";
+import Apricot from "./Pages/Catalog/Apricot.jsx";
+import Cherry from "./Pages/Catalog/Cherry.jsx"
+import Plum from "./Pages/Catalog/Plum.jsx";
+import Peach from "./Pages/Catalog/Peach.jsx";
+import Accessory from "./Pages/Accessory.jsx";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
