@@ -51,6 +51,19 @@
   transition: 0.3s;
   border-color: var(--accent);
 }
+#contact img{
+  width: 90px;
+}
+#selected{
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.3s;
+  position: absolute;
+}
+#selected:hover{
+  opacity: 1;
+  transition: 0.3s;
+}
 
 #navbar {
   z-index: 10;
