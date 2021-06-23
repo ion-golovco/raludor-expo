@@ -5,7 +5,7 @@ import App from './App';
 import './i18n';
 
 ReactDOM.render(
-  <Suspense fallback='null'>
+  <Suspense fallback='Loading...'>
     <App />
   </Suspense>,
   document.getElementById('root')

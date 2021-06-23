@@ -12,6 +12,7 @@ export default function Catalog() {
   return (
     <div>
       <Header />
+      <h1 style={{"margin-top":"1em"}}id="MainText">{t('popular')}</h1>
       <PopularItems />
       <h1 id="MainText">{t('catalog')}</h1>
       

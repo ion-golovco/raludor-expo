@@ -6,11 +6,27 @@
 
 
 :root {
-  --back: #4a6d39;
-  --accent: #F1B24A;
+  --back: #080F0F;
+  --accent: #A52422;
   --text: #fff;
-  --back2: #333333;
+  --back2: #333;
   --accent2:white;
+}
+#buttonl{
+  text-decoration: none;
+  padding: 0.7em;
+  margin: 1em 0em 1em 3em;
+  color:var(--accent2);
+  border-radius: 30px;
+  transition: 0.3s;
+  border:solid 2px var(--accent2);
+}
+#buttonl:hover{
+  transition: 0.3s;
+  background-color: transparent;
+  text-decoration: none;
+  color:var(--accent);
+  border:solid 2px var(--accent);
 }
 
 #activelogo{
@@ -41,6 +57,14 @@
   border-radius: 30px;
   background-color: var(--back2);
 }
+
+#itemscroll:hover{
+  transform: translateY(-10px);
+  color: var(--accent);
+  transition: 0.3s;
+  border-color: var(--accent);
+}
+
 #item-image:hover{
   transition: 0.3s;
   transform: translateY(-5px);
@@ -52,7 +76,8 @@
   border-color: var(--accent);
 }
 #contact img{
-  width: 90px;
+  margin-top:1em;
+  width: 60px;
 }
 #selected{
   cursor: pointer;
@@ -79,19 +104,18 @@
   margin: 0em 2em;
   color:var(--text);
   border-bottom: 3px solid;
-  border-color: #f1b14a00;
+  border-color: transparent;
 }
 #navbarItem:hover{
   transition: 0.3s;
   border-color: var(--accent);
 }
 #image-text{
+  text-align: center;
   margin-bottom: 1em;
 }
 
 #Info {
-  padding: 1em;
-  padding: 0em 0em;
   background-color: var(--back);
   color: var(--text);
 }
@@ -112,19 +136,10 @@
   background-color: var(--back);
 }
 #gallery img{
-  margin:2em;
+  margin:2em 0em;
   object-fit: cover;
   height: 200px;
   width: 100%;
-}
-#imagecarousel{
-  position: absolute;
-  top: 0px;
-  z-index: -1;
-  margin-bottom: 100vh;
-  object-fit: cover;
-  width: 100%;
-  height: 100vh;
 }
 #Hello{
   z-index: 10;
@@ -146,6 +161,7 @@
 #background{
   border-top: 10px solid var(--accent);
   padding-top: 2em;
+  padding-bottom: 3em;
   color: var(--text);
   background-color: var(--back);
 }
@@ -153,7 +169,7 @@
   color: var(--text);
   font-weight: 700;
   margin: 7vh 0px;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
 }
 #fruitCatalog{
@@ -171,26 +187,59 @@
 #contact{
   margin-top: 35vh;
 }
+#scroll{
+  margin-top: 5em;
+  color: var(--text);
+  overflow: auto;
+  white-space: nowrap;
+}
+#scrollimg{
+  object-fit: cover;
+  height: 35vh;
+  padding: 0.7em;
+  width: 100%;
+}
+#scrolltext{
+  text-align: center;
+}
+#itemscroll{
+  margin-right: 0.5em;
+  color: var(--text);
+  margin-bottom: 2em;
+  margin-top: 1em;
+  filter: grayscale(0.30);
+  transition: 0.3s;
+  border-bottom:solid 3px var(--accent2);
+  background-color: var(--back2);
+}
 
 @media only screen and (max-width: 600px) {
   #Hello{
     font-size: 12vw;
   }
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  #MainText{
+    font-size: 12vw;
   }
 }
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--back);
+  width: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
 
-  to {
-    transform: rotate(360deg);
-  }
+  width: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  width: 5px;
+ 
 }

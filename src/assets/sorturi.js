@@ -533,30 +533,6 @@ const Sorturi = [
         name: "ZEE LADY ®",
       },
       {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Concettina-pesco-albero-di-pesche--600x456.jpg",
-        name: "CONCETTINA ®",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Osiris-1-pesco-albero-di-pesche--600x450.jpg",
-        name: "OSIRIS COV",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Pasionata-1-pesco-albero-di-pesche--600x450.jpg",
-        name: "PASIONATA COV",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/2013-06-16-13.28.26-600x800.jpg",
-        name: "PIATTAFORONE ®",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Platifortwo.jpg",
-        name: "PINK RING ® PIATTAFORTWO COV",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Samantha-6-pesco-albero-di-pesche--600x450.jpg",
-        name: "SAMANTHA COV",
-      },
-      {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Andross-pesco-albero-di-pesche--600x463.jpg",
         name: "ANDROSS",
       },
@@ -764,6 +740,35 @@ const Sorturi = [
         img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/401-57-600x450.jpg",
         name: "AC 401-57",
       },
+    ],
+  },{
+    id: 11,
+    category: "flat-peach",
+    sorts: [
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Concettina-pesco-albero-di-pesche--600x456.jpg",
+        name: "CONCETTINA ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Osiris-1-pesco-albero-di-pesche--600x450.jpg",
+        name: "OSIRIS COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Pasionata-1-pesco-albero-di-pesche--600x450.jpg",
+        name: "PASIONATA COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/2013-06-16-13.28.26-600x800.jpg",
+        name: "PIATTAFORONE ®",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Platifortwo.jpg",
+        name: "PINK RING ® PIATTAFORTWO COV",
+      },
+      {
+        img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Samantha-6-pesco-albero-di-pesche--600x450.jpg",
+        name: "SAMANTHA COV",
+      }
     ],
   },
 ];
