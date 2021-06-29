@@ -44,17 +44,21 @@ export default function Info() {
                 <h1>{t("introduction.part2head")}</h1>
                 <p>{t("introduction.part2")}</p>
                 <Row>
-                  <Col  md="6" xs="6">
-                    <Button id="buttonl" href="/accesssory" outline>
+                  <Col md="6" xs="6">
+                    <Button id="buttonl" href="/accessory" outline>
                       {t("accessory")}
                     </Button>
                   </Col>
                   <Col md="6" xs="6">
-                    <Button style={{"margin-left":"0em"}}id="buttonl" href="/gallery" outline>
+                    <Button
+                      style={{ "margin-left": "0em" }}
+                      id="buttonl"
+                      href="/gallery"
+                      outline
+                    >
                       {t("gallery")}
                     </Button>
                   </Col>
-                  
                 </Row>
               </Col>
             </Row>

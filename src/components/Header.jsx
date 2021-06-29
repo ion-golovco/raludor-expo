@@ -8,11 +8,20 @@ import {
   NavItem,
   NavLink,
   Col,
+  UncontrolledButtonDropdown,
+  DropdownMenu,
+  DropdownItem,
+  DropdownToggle,
 } from "reactstrap";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <div>
       <img src="https://i.imgur.com/YnUINvn.png" alt="" id="staticimage" />
@@ -60,6 +69,22 @@ export default function Header() {
                     {t("accessory")}
                   </NavLink>
                 </NavItem>
+                <UncontrolledButtonDropdown>
+                  <DropdownToggle id="dropdown" caret>
+                    {t("language")}
+                  </DropdownToggle>
+                  <DropdownMenu>
+                    <DropdownItem>
+                      <div onClick={() => changeLanguage("ro")}>Română</div>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <div onClick={() => changeLanguage("ru")}>Русский</div>
+                    </DropdownItem>
+                    <DropdownItem>
+                      <div onClick={() => changeLanguage("en")}>English</div>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledButtonDropdown>
               </Nav>
             </Collapse>
           </Navbar>

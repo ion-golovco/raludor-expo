@@ -8,8 +8,9 @@ class Footer extends Component {
   render() {
     return (
       <>
-      <div id="">
-        <h1>Made by Ion Golovco @2021</h1>
+      <div id="footer">
+        
+        <p>Made by Ion Golovco</p>
       </div>
       </>
     );
