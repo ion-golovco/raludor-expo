@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../../Components/Header.jsx';
+import Contact from '../../Components/Contact.jsx'
 import { useTranslation } from "react-i18next";
 
 import Sorturi from "../../assets/sorturi.js";
@@ -26,6 +27,7 @@ export default function Fruit() {
                 })}
                 </Row>
                 </Col>
+                <Contact />
                 </div>
         </div> );
     

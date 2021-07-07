@@ -62,7 +62,7 @@ export default function PopularItems() {
           {sorts.map((n) => {
             return (
               <div id="itemscroll">
-                <img id="scrollimg" src={n.img} alt="" />
+                <img id="scrollimg" src={n.img} alt={n.img} />
                 <p id="scrolltext">{n.name}</p>
               </div>
             );

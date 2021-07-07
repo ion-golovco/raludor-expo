@@ -31,7 +31,7 @@ export default function Header() {
           <Navbar expand="md">
             <NavbarBrand href="/">
               <img
-                src="https://i.imgur.com/No0faMY.png"
+                src="https://i.imgur.com/QfzMsLY.png"
                 alt="logo"
                 id="activelogo"
               />

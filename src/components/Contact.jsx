@@ -17,27 +17,28 @@ export default function Contact() {
                   <a href="https://www.facebook.com/Proiectare-vii-livezi-106166314402118">
                     <img
                       id="selected"
+                      alt="contact"
                       src="https://img.icons8.com/ios-filled/90/A52422/facebook-new.png"
                     />
-                    <img src="https://img.icons8.com/ios-filled/90/ffffff/facebook-new.png" />
+                    <img  alt="contact" src="https://img.icons8.com/ios-filled/90/ffffff/facebook-new.png" />
                   </a>
                 </Row>
                 <Row>
                   <a href="https://www.facebook.com/messages/t/106166314402118">
-                    <img
+                    <img  alt="contact"
                       id="selected"
                       src="https://img.icons8.com/ios-filled/90/A52422/facebook-messenger.png"
                     />
-                    <img src="https://img.icons8.com/ios-filled/90/ffffff/facebook-messenger.png" />
+                    <img  alt="contact" src="https://img.icons8.com/ios-filled/90/ffffff/facebook-messenger.png" />
                   </a>
                 </Row>
                 <Row>
                   <a href="">
                     <img
-                      id="selected"
+                      id="selected" alt="contact"
                       src="https://img.icons8.com/ios-filled/90/A52422/whatsapp--v1.png"
                     />
-                    <img src="https://img.icons8.com/ios-filled/90/ffffff/whatsapp--v1.png" />
+                    <img  alt="contact" src="https://img.icons8.com/ios-filled/90/ffffff/whatsapp--v1.png" />
                   </a>
                 </Row>
               </div>
