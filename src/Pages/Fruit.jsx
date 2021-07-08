@@ -1,16 +1,14 @@
 import React from 'react';
 
-import Header from '../../Components/Header.jsx';
-import Contact from '../../Components/Contact.jsx'
+import Header from '../Components/Header.jsx';
+import Contact from '../Components/Contact.jsx'
 import { useTranslation } from "react-i18next";
-
-import Sorturi from "../../assets/sorturi.js";
+import Sorturi from "../assets/sorturi.js";
 import { Col, Row } from 'reactstrap';
 
-const fruit = 11
-
-export default function Fruit() {
+export default function Fruit(props) {
     const { t } = useTranslation();
+    let fruit = props.fruit
     let sorts = Sorturi[fruit].sorts
         return ( <div>
                 <Header></Header>
@@ -20,12 +18,14 @@ export default function Fruit() {
                 <Row>
                 {sorts.map((n)=>{
                     return ( 
+                  
                     <Col id='item'md="3"xs="6">
-                            <a href="#contact">
-                        <img id="item-image"src={n.img} alt={n.name} />
+                        <a href="#contact">
+                        <img id="item-image" src={n.img} alt={n.name} />
                         </a>
                         <h5 id="image-text">{n.name}</h5>
-                    </Col> );
+                    </Col> 
+                    );
                 })}
                 </Row>
                 <img src={Sorturi[fruit].ripeinfo} alt="" id="sort-ripe-info"/>

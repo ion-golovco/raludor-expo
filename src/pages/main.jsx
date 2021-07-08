@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Components/Header.jsx";
-import Footer from "../Components/Footer.jsx";
 import Info from "../Components/Info.jsx";
 import Contact from "../Components/Contact.jsx";
 import { Col, Row } from "reactstrap";
@@ -20,7 +19,6 @@ export default function Main() {
       </Row>
       <Info />
       <Contact />
-      <Footer />
     </div>
   );
 }
