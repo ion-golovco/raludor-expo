@@ -2,6 +2,7 @@ const Sorturi = [
   {
     id: 0,
     category: "apricot",
+    ripeinfo:"https://i.imgur.com/LUZ3FsX.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/aristo2-e1595315871342-600x626.png",
@@ -157,6 +158,7 @@ const Sorturi = [
   {
     id: 1,
     category: "cherry",
+    ripeinfo:"https://i.imgur.com/5H2RW7L.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Burlat-albero-di-ciliegie-ciliegio--600x463.jpg",
@@ -235,6 +237,7 @@ const Sorturi = [
   {
     id: 2,
     category: "plum",
+    ripeinfo:"https://i.imgur.com/Ya6v4Ll.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Angeleno-susino-albero-di-susine-600x529.png",
@@ -317,6 +320,7 @@ const Sorturi = [
   {
     id: 3,
     category: "nectarine",
+    ripeinfo:"https://i.imgur.com/GJi7uaS.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/png_alitop_1.jpg",
@@ -423,6 +427,7 @@ const Sorturi = [
   {
     id: 4,
     category: "peach",
+    ripeinfo:"https://i.imgur.com/KeFNNiv.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Glohaven-pesco-albero-di-pesche--600x464.jpg",
@@ -571,6 +576,7 @@ const Sorturi = [
   {
     id: 6,
     category: "pear",
+    ripeinfo:"https://i.imgur.com/SydiKib.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Abate-albero-di-pere-pero-600x464.jpg",
@@ -621,6 +627,7 @@ const Sorturi = [
   {
     id: 7,
     category: "apple",
+    ripeinfo:"https://i.imgur.com/8d5LcMp.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Annurca-albero-di-mele-melo--600x463.jpg",
@@ -744,6 +751,7 @@ const Sorturi = [
   },{
     id: 11,
     category: "flat-peach",
+    ripeinfo:"https://i.imgur.com/KeFNNiv.png",
     sorts: [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Concettina-pesco-albero-di-pesche--600x456.jpg",

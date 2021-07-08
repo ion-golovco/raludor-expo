@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -17,6 +17,8 @@ import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const { t, i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
@@ -29,7 +31,7 @@ export default function Header() {
       <div id="navbar">
         <Col xs="12" md={{ size: "10", offset: 1 }}>
           <Navbar expand="md">
-            <NavbarBrand href="/">
+          <NavbarBrand href="/">
               <img
                 src="https://i.imgur.com/QfzMsLY.png"
                 alt="logo"
@@ -41,9 +43,9 @@ export default function Header() {
                 width="90px"
               />
             </NavbarBrand>
-            <NavbarToggler />
-            <Collapse navbar>
-              <Nav className="mr-auto" navbar>
+            <NavbarToggler onClick={toggle} id="toggle-button"  />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav  navbar>
                 <NavItem>
                   <NavLink id="navbarItem" href="/">
                     {t("home")}
@@ -59,8 +61,9 @@ export default function Header() {
                     {t("gallery")}
                   </NavLink>
                 </NavItem>
+              
                 <NavItem>
-                  <NavLink id="navbarItem" href="/#contact">
+                  <NavLink id="navbarItem" href="#contact">
                     {t("contact")}
                   </NavLink>
                 </NavItem>

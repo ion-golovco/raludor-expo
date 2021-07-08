@@ -90,11 +90,6 @@
   transition: 0.3s;
 }
 
-#navbar {
-  z-index: 10;
-  height: 15vh;
-  z-index: 100;
-}
 
 #navbar img {
   margin-left: 5vw;
@@ -142,10 +137,9 @@
   width: 100%;
 }
 #Hello{
-  z-index: 10;
   color: var(--text);
   font-weight: 700;
-  margin-top: 7vh;
+  
   margin-left: 5vw;
   font-size: 6rem;
   height: 0vh;
@@ -158,6 +152,11 @@
   width: 100vw;
   z-index: -100;
 }
+#toggle-button{
+  background-color: white;
+  opacity: 1;
+  margin-right: 2em;
+}
 #background{
   border-top: 10px solid var(--accent);
   padding-top: 2em;
@@ -168,10 +167,13 @@
 #dropdown{
   font-weight: 700;
   border-color: transparent;
+  text-align: left;
+  padding-left:2em;
   background-color: transparent;
 }
 #dropdown:active{
   font-weight: 700;
+  text-align: left;
   border-color: transparent;
   background-color: transparent;
 }
@@ -194,7 +196,13 @@
   text-decoration: none;
   color: var(--text);
 }
+#sort-ripe-info{
+width: 100%;
+margin-top: 5em;
+border-radius: 20px;
+}
 #contact{
+  text-align: left;
   margin-top: 35vh;
 }
 #scroll{

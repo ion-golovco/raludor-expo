@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Components/Header.jsx';
 import images from '../assets/images.js';
 import { Col, Row } from 'reactstrap';
-
+import Contact from "../Components/Contact.jsx";
 
 class Gallery extends Component {
     state = {  }
@@ -19,6 +19,7 @@ class Gallery extends Component {
             </Row>
             </Col>
             </div>
+            <Contact />
         </div> );
     }
 }

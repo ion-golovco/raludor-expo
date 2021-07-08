@@ -21,11 +21,13 @@ export default function Fruit() {
                 {sorts.map((n)=>{
                     return ( 
                     <Col id='item'md="3"xs="6">
-                        <img id="item-image"src={n.img} alt={n.name} />
+                        <a href="#contact">
+                        <img id="item-image"src={n.img} alt={n.name} /></a>
                         <h5 id="image-text">{n.name}</h5>
                     </Col> );
                 })}
                 </Row>
+                <img src={Sorturi[fruit].ripeinfo} alt="" id="sort-ripe-info"/>
                 </Col>
                 <Contact />
                 </div>

@@ -3,6 +3,7 @@ import { Col, Row } from "reactstrap";
 import Header from "../Components/Header.jsx";
 
 import PopularItems from "../Components/PopularItems.jsx";
+import Contact from '../Components/Contact.jsx'
 import Sorturi from "../assets/sorturi";
 
 import { useTranslation } from "react-i18next";
@@ -30,6 +31,7 @@ export default function Catalog() {
         })}
         </Row>
       </Col>
+      <Contact />
       </div>
       </div>
   );
