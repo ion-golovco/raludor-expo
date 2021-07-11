@@ -3,6 +3,7 @@ import { Col } from "reactstrap";
 
 import Sorturi from "../assets/sorturi";
 
+
 import { useTranslation } from "react-i18next";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -26,11 +27,11 @@ const responsive = {
   },
 };
 
-export default function PopularItems() {
+export default function PopularItems(props) {
   const { t } = useTranslation();
-
-  const sorts = [
-    
+  
+  const sorts = props.items ? props.items:
+  [
     Sorturi[0].sorts[17],
     Sorturi[0].sorts[18],
     {

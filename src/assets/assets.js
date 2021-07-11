@@ -1,4 +1,4 @@
-const images = [
+const Images = [
 "https://i.imgur.com/x1bF6pm.jpg",
 "https://i.imgur.com/ViBqavl.jpg",
 "https://i.imgur.com/Zo2HT9a.jpg",
@@ -39,4 +39,28 @@ const images = [
 "https://i.imgur.com/LOeORvl.jpg",
 "https://i.imgur.com/VQ4tVLD.jpg"
 ]
-export default images;
+export const Accessory =[
+    {
+        img:"https://i.imgur.com/mQsZg94.jpg",
+        tag:""
+    }, {
+        img:"https://i.imgur.com/Y10cu4g.jpg",
+        tag:""
+    }, {
+        img:"https://i.imgur.com/qL9KcF5.jpg",
+        tag:""
+    }, {
+        img:"https://i.imgur.com/dLlLmok.jpg",
+        tag:""
+    }, {
+        img:"https://i.imgur.com/FZKkrrO.jpg",
+        tag:""
+    }, {
+        img:"https://i.imgur.com/c9uGTgL.jpg",
+        tag:""
+    }, {
+        img:"https://i.imgur.com/4cRgnph.png",
+        tag:""
+    }
+]
+export default Images;

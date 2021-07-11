@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header.jsx';
-import images from '../assets/images.js';
+import images from '../assets/assets.js';
 import { Col, Row } from 'reactstrap';
 import Contact from "../Components/Contact.jsx";
 

@@ -7,153 +7,179 @@ const Sorturi = [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/aristo2-e1595315871342-600x626.png",
         name: "ARISTO COV",
-        
+        ripe:"mid july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Carmingo_Farbaly-albero-di-albicocche-albicocco-1-1-600x464.jpg",
         name: "CARMINGO ® FARBALY COV",
+        ripe:"beg august"
       },
       {
         img: " https://www.dalmontevivai.com/wp-content/uploads/2019/07/Carmingo_Faralia-albero-di-albicocche-albicocco--600x464.jpg",
         name: "CARMINGO ® FARALIA COV",
+        ripe:"mid july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/FARBELA-albero-di-albicocche-albicocco--600x793.jpg",
         name: "CARMINGO ® FARBELA COV",
+        ripe:"end july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Carmingo_Farclo-albero-di-albicocche-albicocco--600x464.jpg",
         name: "CARMINGO ® FARCLO COV",
+        ripe:"mid august"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/FARLIS-albero-di-albicocche-albicocco--600x902.jpg",
         name: "CARMINGO ® FARLIS COV",
+        ripe:"beg august"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Carmingo_Pricia-albero-di-albicocche-albicocco--600x511.jpg",
         name: "CARMINGO ® PRICIA COV",
-      },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2020/06/12-44-9-600x450.png",
-        name: "COCOT COV",
+        ripe:"mid may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/delice-cot-albero-di-albicocche-albicocco--600x450.jpg",
         name: "DELICE COT COV",
+        ripe:"end june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Flopria-1-2-albero-di-albicocche-albicocco--600x415.jpg",
         name: "FLOPRIA COV",
+        ripe:"beg june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Fuego-Cov-Albicocco-albero-di-albicocche-1-600x508.png",
         name: "FUEGO COV",
+        ripe:"beg june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Goldrich-albero-di-albicocche-albicocco--600x462.jpg",
         name: "GOLDRICH (SUNGIANT)",
+        ripe:"mid june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Spring-Blush-albero-di-albicocche-albicocco--600x463.jpg",
         name: "SPRING BLUSH ®",
+        ripe:"end may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/SUNNY-COT-2011-MAGNANI-10-albero-di-albicocche-albicocco--600x450.jpg",
         name: "SUNNY COT COV",
+        ripe:"mid june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Swired-Albicocco-albero-di-albicocche-600x424.png",
         name: "SWIRED",
+        ripe:"beg june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Albicocco-Tsunami-piante-da-frutto-frutto-vivai-dalmonte.jpg",
         name: "TSUNAMI ®",
+        ripe:"end may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Wonder-Cot-4-albero-di-albicocche-albicocco--600x450.jpg",
         name: "WONDER COT COV",
+        ripe:"beg may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Kioto-albero-di-albicocche-albicocco--600x463.jpg",
         name: "KIOTO COV",
+        ripe:"end june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/LADY-COT-2011-MAGNANI-8-albero-di-albicocche-albicocco--600x450.jpg",
         name: "LADY COT COV",
+        ripe:"mid july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Lido-Albicocco-albero-di-albicocche-600x504.png",
         name: "LIDO COV",
+        ripe:"beg june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/LILLY-COT-5-albero-di-albicocche-albicocco--600x401.jpg",
         name: "LILLY COT COV",
+        ripe:"end may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Lunafull-albero-di-albicocche-albicocco--600x464.jpg",
         name: "LUNAFULL ®",
+        ripe:"end may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/madrigal-albicocco-albero-di-albicocche-600x447.png",
         name: "MADRIGAL",
+        ripe:"end august"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/MAGIC-COT-4-albero-di-albicocche-albicocco--600x401.jpg",
         name: "MAGIC COT COV",
+        ripe:"end may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Memphis-Albicocco-albero-di-albicocche-600x426.png",
         name: "MEMPHIS COV",
+        ripe:"beg august"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Mikado-2-albero-di-albicocche-albicocco--600x800.jpg",
         name: "MIKADO COV",
+        ripe:"beg may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Milord-1-albero-di-albicocche-albicocco--600x450.jpg",
         name: "MILORD COV",
+        ripe:"mid july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/nelson-albicocco-albero-di-albicocche-600x506.png",
         name: "NELSON ®",
+        ripe:"beg august"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Pinkot_OK-600x450.jpg",
         name: "PINKCOT ®",
+        ripe:"beg june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/placido-albicocco-albero-di-albicocche-e1591866221332.png",
         name: "PLACIDO COV",
+        ripe:"end september"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Playa-cot-SERFEL-8-albero-di-albicocche-albicocco--600x450.jpg",
         name: "PLAYA COT COV",
+        ripe:"mid july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Portici-albero-di-albicocche-albicocco--600x463.jpg",
         name: "PORTICI",
+        ripe:"beg july"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/a_pricia_4-600x450.jpg",
         name: "PRICIA",
+        ripe:"mid may"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Rouge-Cot-Albicocco-albero-di-albicocche.png",
         name: "ROUGE COT",
+        ripe:"end june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Rubeli-cov-Albicocco-albero-di-albicocche-1-600x503.png",
         name: "RUBELY COV",
+        ripe:"mid june"
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/07/Sherpa-Albicocco-albero-di-albicocche-600x451.jpg",
         name: "SHERPA COV",
+        ripe:"end july"
       },
-      {
-        img: "https://www.dalmontevivai.com/wp-content/uploads/2020/07/2010-55-4-600x421.png",
-        name: "TITICOT COV",
-      },
-    ],
+    ]
   },
   {
     id: 1,
@@ -163,74 +189,92 @@ const Sorturi = [
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Burlat-albero-di-ciliegie-ciliegio--600x463.jpg",
         name: "BURLAT",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Ferrovia-albero-di-ciliegie-ciliegio--600x463.jpg",
         name: "FERROVIA",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/FRISCO-5-albero-di-ciliegie-ciliegio--600x800.jpg",
         name: "FRISCO COV",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Giorgia-albero-di-ciliegie-ciliegio--600x462.jpg",
         name: "GIORGIA",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/c_kordia_2-600x450.jpg",
         name: "KORDIA",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Lapins-albero-di-ciliegie-ciliegio--600x463.jpg",
         name: "LAPINS",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Montmorency-albero-di-ciliegie-ciliegio--600x463.jpg",
         name: "MONTMORENCY",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Regina-albero-di-ciliegie-ciliegio--600x464.jpg",
         name: "REGINA",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/ROCKET-albero-di-ciliegie-ciliegio--600x450.jpg",
         name: "ROCKET COV",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal-baily-ciliegio-albero-di-ciliegie.png",
         name: "ROYAL BAILEY",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/ROYAL-HAZEL-albero-di-ciliegie-ciliegio--600x906.jpg",
         name: "ROYAL HAZEL COV",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/ROYAL-HELEN_ok-albero-di-ciliegie-ciliegio--600x902.jpg",
         name: "ROYAL HELEN COV",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal-Lafayette-ciliegio-albero-di-ciliegie-600x400.jpg",
         name: "ROYAL LAFAYETTE COV",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Royal-tioga-ciliegio-albero-di-ciliegie.png",
         name: "ROYAL TIOGA ®",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Samba-albero-di-ciliegie-ciliegio--600x508.jpg",
         name: "SAMBA ®",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Sofia-ciliegio-albero-di-ciliegie.png",
         name: "SOFIA ®",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Sweet_Heart-albero-di-ciliegie-ciliegio--600x430.jpg",
         name: "SWEET HEART ®",
+        ripe:""
       },
       {
         img: "https://www.dalmontevivai.com/wp-content/uploads/2019/08/Tamara-ciliegio-albero-di-ciliegie-600x450.jpg",
         name: "TAMARA COV",
+        ripe:""
       },
     ],
   },
@@ -674,9 +718,86 @@ const Sorturi = [
         name: "SUPERSTAYMAN",
       },
       {
-        img: "",
-        name: "",
-      },
+        img: "https://i.imgur.com/oYbD0eD.png",
+        name: "Gala Schniga® SchniCo",
+        ripe:"mid-end august"
+      },{
+        img: "https://i.imgur.com/X6m8UQB.png",
+        name: "Gala mema® 16316",
+        ripe:"mid-end august"
+      },{
+        img: "https://i.imgur.com/crvQ4DM.png",
+        name: "Gala Schniga® SchniCo RED",
+        ripe:"mid-end august"
+      },{
+        img: "https://i.imgur.com/KoxVzA0.png",
+        name: "Devil Gala",
+        ripe:"mid-end august"
+      },{
+        img: "https://i.imgur.com/5YiUdCK.png",
+        name: "Golden Delicious Klon B",
+        ripe:"beg-mid september"
+      },{
+        img: "https://i.imgur.com/dD3Htej.png",
+        name: "Golden Delicious Reinders®",
+        ripe:"beg-mid september"
+      },{
+        img: "https://i.imgur.com/IOgNp62.png",
+        name: "Golden 1895 mema®",
+        ripe:"beg-mid september"
+      },{
+        img: "https://i.imgur.com/JBPQsi6.png",
+        name: "Golden Parsi da rosa®",
+        ripe:"beg-mid september"
+      },{
+        img: "https://i.imgur.com/Hls3UCo.png",
+        name: "Red Delicious Mestar 2284 mema®",
+        ripe:"mid september"
+      },{
+        img: "https://i.imgur.com/KL6t0J9.png",
+        name: "Red Delicious KING® ROAT",
+        ripe:"end september"
+      },{
+        img: "https://i.imgur.com/rbsfqwm.png",
+        name: "Red Delicious Scarlet Spur - Evasni",
+        ripe:"mid september"
+      },{
+        img: "https://i.imgur.com/UwrHd2H.png",
+        name: "Fuji KO-CIV® FUCIV181",
+        ripe:"beg-mid october"
+      },{
+        img: "https://i.imgur.com/F7rXiIs.png",
+        name: "Fuji Kiku® Fubrax",
+        ripe:"beg-mid october"
+      },{
+        img: "https://i.imgur.com/woBm4gm.png",
+        name: "Fuji SAN-CIV® FUCIV51",
+        ripe:"beg-mid october"
+      },{
+        img: "https://i.imgur.com/swxTGLJ.png",
+        name: "KING® Grofn Fuji",
+        ripe:"beg-mid october"
+      },{
+        img: "https://i.imgur.com/5dfOwj1.png",
+        name: "Wilton‘s Star Red Jonaprince Select®",
+        ripe:"mid september"
+      },{
+        img: "https://i.imgur.com/uwMEV6L.png",
+        name: "Najdared",
+        ripe:"end september"
+      },{
+        img: "https://i.imgur.com/GWQj3Dh.png",
+        name: "Braeburn mema® 78",
+        ripe:"end september"
+      },{
+        img: "https://i.imgur.com/nBehvJT.png",
+        name: "Sommernachtstraum",
+        ripe:"mid august"
+      },{
+        img: "https://i.imgur.com/IU4UMQb.png",
+        name: "Burgred",
+        ripe:"mid-end september"
+      }
     ],
   },
   {
