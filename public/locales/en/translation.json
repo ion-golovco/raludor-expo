@@ -1,12 +1,54 @@
 {
-    "catalog":"Varietal Catlogue",
-    "apricot":"Apricot",
-    "cherry":"Cherry",
-    "plum":"Plum",
-    "nectarine":"Nectarine",
-    "peach":"Peach",
-    "kiwi":"Kiwi",
-    "pear":"Pear",
-    "apple":"Apple",
-    "nut":"Nuts"
+  "language": "Language",
+  "catalog": "Catalog",
+  "home": "About Us",
+  "gallery": "Gallery",
+  "contact": "Contacts",
+  "accessory": "Accessories",
+
+  "apricot": "Apricots",
+  "cherry": "Cherries",
+  "plum": "Plums",
+  "nectarine": "Nectarines",
+  "peach": "Peaches",
+  "kiwi": "Kiwi",
+  "pear": "Pears",
+  "apple": "Apples",
+  "nut": "Nuts",
+  "table-grape": "Table Grapes",
+  "wine-grape": "Wine Grapes",
+  "flat-peach": "Flat Peaches",
+
+  "selection": "Our selection of ",
+  "hello": "Designing vineyards and orchards",
+  "popular": "Popular items and services",
+
+  "introduction": {
+    "part1head": "Big selection of high quality products",
+    "part1": "SRL RALUDOR - EXPO is a company that deals with the design of vineyards and orchards. We are also representatives in the Republic of Moldova of the Dalmonte nursery in Italy.",
+
+    "part2head": "RALUDOR - EXPO",
+    "part2": "Our company delivers antiseptic-treated wooden trellis and the full range of accessories needed to install super-intensive orchards. Our team of professionals are always ready to consult you, starting with the choice of land in nature, soil and water analysis and ending with the most efficient and competitive varieties. We also offer consultations in the installation of the support and the installation of the anti-hail net."
+  },
+  
+  "acc1": "TRADITIONAL POLE CAP",
+  "acc2": "WIRE CLAMPS",
+  "acc3": "VARIO AUTOMATIC PLAQUETTE",
+  "acc4": "VARIO PLAQUETTE FOR ELASTICS SYSTEMS",
+  "acc5": "RE-BLOCK",
+  "acc6": "STEEL WIRE ROPE",
+  "acc7": "HAIL PROTECTION MESH",
+
+  "end": "End of",
+  "beg": "Beginning of",
+  "mid": "Middle of",
+  "beg-mid": "Towards the middle of",
+  "mid-end": "Towards the end of",
+  "may": "May",
+  "june": "June",
+  "july": "July",
+  "august": "August",
+  "september": "September",
+  "october": "October",
+  "november": "November"
 }

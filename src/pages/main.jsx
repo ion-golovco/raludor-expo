@@ -13,7 +13,7 @@ export default function Main() {
       <Header />
 
       <Row>
-        <Col xs="12" md={{ size: "6", offset: 1 }}>
+        <Col xs="12" md={{ size: "7", offset: 1 }}>
           <p id="Hello">{t('hello')}</p>
         </Col>
       </Row>

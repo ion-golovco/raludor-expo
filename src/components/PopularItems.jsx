@@ -27,11 +27,10 @@ const responsive = {
   },
 };
 
+
 export default function PopularItems(props) {
   const { t } = useTranslation();
-  
-  const sorts = props.items ? props.items:
-  [
+  const sortsCatalog =  [
     Sorturi[0].sorts[17],
     Sorturi[0].sorts[18],
     {
@@ -46,6 +45,9 @@ export default function PopularItems(props) {
     Sorturi[1].sorts[16],
     
   ];
+  
+  const sorts = props.items ? props.items: sortsCatalog
+
   return (
     <div>
       <Col xs="12">
@@ -64,12 +66,11 @@ export default function PopularItems(props) {
             return (
               <div id="itemscroll">
                 <img id="scrollimg" src={n.img} alt={n.img} />
-                <p id="scrolltext">{n.name}</p>
+                <p id="scrolltext">{t(n.name)}</p>
               </div>
-            );
+            )
           })}
         </Carousel>
-        ;
       </Col>
     </div>
   );

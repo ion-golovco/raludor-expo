@@ -42,25 +42,33 @@ const Images = [
 export const Accessory =[
     {
         img:"https://i.imgur.com/mQsZg94.jpg",
-        tag:""
+        name:"acc1"
     }, {
         img:"https://i.imgur.com/Y10cu4g.jpg",
-        tag:""
+        name:"acc2"
     }, {
         img:"https://i.imgur.com/qL9KcF5.jpg",
-        tag:""
+        name:"acc3"
     }, {
         img:"https://i.imgur.com/dLlLmok.jpg",
-        tag:""
+        name:"acc4"
     }, {
         img:"https://i.imgur.com/FZKkrrO.jpg",
-        tag:""
+        name:"acc5"
     }, {
         img:"https://i.imgur.com/c9uGTgL.jpg",
-        tag:""
+        name:"acc6"
     }, {
         img:"https://i.imgur.com/4cRgnph.png",
-        tag:""
+        name:"acc7"
     }
+    , {
+        img:"https://i.imgur.com/j4PnbdR.jpg",
+        name:"acc8"
+    }, {
+        img:"https://i.imgur.com/cO3xXIe.jpg",
+        name:"acc9"
+    }
+
 ]
 export default Images;
