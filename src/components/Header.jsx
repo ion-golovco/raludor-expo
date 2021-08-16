@@ -61,7 +61,6 @@ export default function Header() {
                     {t("gallery")}
                   </NavLink>
                 </NavItem>
-              
                 <NavItem>
                   <NavLink id="navbarItem" href="#contact">
                     {t("contact")}

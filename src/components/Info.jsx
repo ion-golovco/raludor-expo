@@ -14,7 +14,7 @@ export default function Info() {
                 <h1>{t("introduction.part1head")}</h1>
                 <p>{t("introduction.part1")}</p>
                 <Button id="buttonl" href="/catalog" outline>
-                  {t("catalog")}
+                  {t("catalog")} →
                 </Button>
               </Col>
               <Col md="5">
@@ -46,7 +46,7 @@ export default function Info() {
                 <Row>
                   <Col md="6" xs="6">
                     <Button id="buttonl" href="/accessory" outline>
-                      {t("accessory")}
+                      {t("accessory")} →
                     </Button>
                   </Col>
                   <Col md="6" xs="6">
@@ -56,7 +56,7 @@ export default function Info() {
                       href="/gallery"
                       outline
                     >
-                      {t("gallery")}
+                      {t("gallery")} →
                     </Button>
                   </Col>
                 </Row>

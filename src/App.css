@@ -14,13 +14,13 @@ html {
   --accent2:white;
 }
 #buttonl{
+  font-size: 1.5rem;
   text-decoration: none;
-  padding: 0.7em;
-  margin: 1em 0em 1em 3em;
   color:var(--accent2);
-  border-radius: 30px;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
   transition: 0.3s;
-  border:solid 2px var(--accent2);
+  border:solid 2px var(--text);
 }
 #buttonl:hover{
   transition: 0.3s;
@@ -157,7 +157,6 @@ html {
 #Hello{
   color: var(--text);
   font-weight: 700;
-  
   margin-left: 5vw;
   font-size: 6rem;
   height: 0vh;
@@ -176,7 +175,7 @@ html {
   margin-right: 2em;
 }
 #background{
-  border-top: 10px solid var(--accent);
+  border-top: 5px solid var(--accent);
   padding-top: 2em;
   padding-bottom: 3em;
   color: var(--text);
