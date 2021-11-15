@@ -11,8 +11,10 @@ export default function Info() {
           <Col xs="12" md={{ size: "10", offset: 1 }}>
             <Row>
               <Col md="6">
+                <Col>
                 <h1>{t("introduction.part1head")}</h1>
                 <p>{t("introduction.part1")}</p>
+                </Col>
                 <Button id="buttonl" href="/catalog" outline>
                   {t("catalog")} →
                 </Button>
